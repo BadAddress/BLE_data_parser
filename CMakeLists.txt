@@ -10,7 +10,7 @@ add_executable(demo test.cc)
 target_link_libraries(demo tinyb pthread)
 
 set_target_properties(demo PROPERTIES
-    CXX_STANDARD 11
+    CXX_STANDARD 14
     CXX_STANDARD_REQUIRED YES
     CXX_EXTENSIONS NO
 )
